@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - VAID Architects</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/blogstyles.css">
+
+    <metatag-component></metatag-component>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1MF53JLN1M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1MF53JLN1M');
+    </script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header-component></header-component>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-title" data-aos="fade-up">Blog</h1>
+                    <p class="lead text-white aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- News Section -->
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <!-- Search + Filter -->
+                <div class="search-filter-box">
+                    <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search blog posts...">
+                    </div>
+                    <div class="filter-box">
+                    <select id="filterCategory">
+                        <option value="all">All Categories</option>
+                        <option value="architecture">Architecture</option>
+                        <option value="interiors">Interiors</option>
+                        <option value="landscape">Landscape</option>
+                        <option value="design">Design Trends</option>
+                    </select>
+                    </div>
+                </div>
+            
+
+            <div class="row">
+                <div class="blog-grid" id="blogGrid">
+
+  <!-- BLOG CARD 1 -->
+  <div class="blog-card" data-category="interiors">
+    <img src="https://images.pexels.com/photos/6585611/pexels-photo-6585611.jpeg" alt="">
+    <div class="blog-content">
+      <div class="blog-title">Modern Interior Design Trends</div>
+      <div class="blog-meta">Dec 2025 • Interiors</div>
+
+      <p class="blog-desc">
+        Explore how minimalism, warm tones, and functional design are transforming Indian homes.
+        New-age interior design is now focused on sustainability, minimalistic flow, luxury aesthetic
+        elements, and ergonomic planning that blends comfort with purpose…
+      </p>
+
+      <span class="read-more-btn btn btn-dark-yellow">Read More</span>
+    </div>
+  </div>
+
+  <!-- BLOG CARD 2 -->
+  <div class="blog-card" data-category="architecture">
+    <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg" alt="">
+    <div class="blog-content">
+      <div class="blog-title">Sustainable Architecture in India</div>
+      <div class="blog-meta">Nov 2025 • Architecture</div>
+
+      <p class="blog-desc">
+        Sustainable architecture focuses on climate-responsive planning, green principles,
+        and energy-efficient building technologies that reduce long-term carbon footprint.
+        India is seeing a rise in passive cooling, natural materials, and eco-innovations…
+      </p>
+
+      <span class="read-more-btn btn btn-dark-yellow">Read More</span>
+    </div>
+  </div>
+
+  <!-- BLOG CARD 3 -->
+  <div class="blog-card" data-category="landscape">
+    <img src="https://images.pexels.com/photos/1173777/pexels-photo-1173777.jpeg" alt="">
+    <div class="blog-content">
+      <div class="blog-title">Landscape Design Inspirations</div>
+      <div class="blog-meta">Oct 2025 • Landscape</div>
+
+      <p class="blog-desc">
+        Thoughtful landscape planning improves wellness, biodiversity, and aesthetics.
+        Modern gardens now use native plants, water elements, organic zoning, and
+        recreational green pockets that enrich outdoor living,
+        Luxury interior design focuses on spatial drama, elegant material combinations,
+        high-end lighting, and bespoke furniture to bring unmatched comfort and class…
+      </p>
+
+      <span class="read-more-btn btn btn-dark-yellow">Read More</span>
+    </div>
+  </div>
+
+  <!-- BLOG CARD 4 -->
+  <div class="blog-card" data-category="design">
+    <img src="https://images.pexels.com/photos/3965520/pexels-photo-3965520.jpeg" alt="">
+    <div class="blog-content">
+      <div class="blog-title">Top Design Trends for 2025</div>
+      <div class="blog-meta">Sep 2025 • Design Trends</div>
+
+      <p class="blog-desc">
+        From AI-assisted design planning to bold color palettes and multi-purpose spaces,
+        2025 design trends focus on user experience, emotional comfort, and artistic expression.
+        Luxury interior design focuses on spatial drama, elegant material combinations,
+        high-end lighting, and bespoke furniture to bring unmatched comfort and class…
+      </p>
+
+      <span class="read-more-btn btn btn-dark-yellow">Read More</span>
+    </div>
+  </div>
+
+  <!-- BLOG CARD 5 -->
+  <div class="blog-card" data-category="architecture">
+    <img src="https://images.pexels.com/photos/323933/pexels-photo-323933.jpeg" alt="">
+    <div class="blog-content">
+      <div class="blog-title">Future of Smart Homes in India</div>
+      <div class="blog-meta">Aug 2025 • Architecture</div>
+
+      <p class="blog-desc">
+        Smart homes integrate automation, IoT devices, advanced security systems, and
+        intelligent lighting to create energy-efficient and user-friendly residential setups.
+        Luxury interior design focuses on spatial drama, elegant material combinations,
+        high-end lighting, and bespoke furniture to bring unmatched comfort and class…
+      </p>
+
+      <span class="read-more-btn btn btn-dark-yellow">Read More</span>
+    </div>
+  </div>
+
+  <!-- BLOG CARD 6 -->
+  <div class="blog-card" data-category="interiors">
+    <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg" alt="">
+    <div class="blog-content">
+      <div class="blog-title">Luxury Villa Interior Planning</div>
+      <div class="blog-meta">Jul 2025 • Interiors</div>
+
+      <p class="blog-desc">
+        Luxury interior design focuses on spatial drama, elegant material combinations,
+        high-end lighting, and bespoke furniture to bring unmatched comfort and class.
+        Luxury interior design focuses on spatial drama, elegant material combinations,
+        high-end lighting, and bespoke furniture to bring unmatched comfort and class…
+      </p>
+
+      <span class="read-more-btn btn btn-dark-yellow">Read More</span>
+    </div>
+  </div>
+
+</div>
+
+ 
+
+   
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <!-- Footer -->
+    <footer-component></footer-component>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Web Component -->
+    <script src="webcomponent/headerComponents.js"></script>
+    <script src="webcomponent/FooterComponent.js"></script>
+    <script src="webcomponent/metatagComponent.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        // Navbar scroll behavior
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('navbar-scrolled');
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
+
+
+
+
+
+
+<script>
+/* ---------- OPEN ARTICLE SLIDE PANEL ---------- */
+const readButtons = document.querySelectorAll('.read-more');
+const panel = document.getElementById('articlePanel');
+
+readButtons.forEach(btn => {
+  btn.addEventListener('click', function() {
+    const card = this.closest('.blog-card');
+    document.getElementById('articleTitle').textContent = 
+      card.querySelector('.blog-title').textContent;
+
+    document.getElementById('articleContent').innerHTML = `
+      <p>${card.querySelector('.blog-desc').textContent}</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Sed facilisis dui id orci faucibus, vel laoreet ipsum tristique.</p>
+      <p>Full article content can be dynamically loaded from backend.</p>
+    `;
+
+    panel.classList.add('open');
+  });
+});
+
+function closePanel() {
+  panel.classList.remove('open');
+}
+
+/* ---------- SEARCH FUNCTION ---------- */
+document.getElementById('searchInput').addEventListener('keyup', function() {
+  const term = this.value.toLowerCase();
+  document.querySelectorAll('.blog-card').forEach(card => {
+    const title = card.querySelector('.blog-title').textContent.toLowerCase();
+    card.style.display = title.includes(term) ? "block" : "none";
+  });
+});
+
+/* ---------- FILTER CATEGORY ---------- */
+document.getElementById('filterCategory').addEventListener('change', function() {
+  const cat = this.value;
+  document.querySelectorAll('.blog-card').forEach(card => {
+    card.style.display = (cat === "all" || card.dataset.category === cat)
+      ? "block" : "none";
+  });
+});
+
+
+/*---------- FIXED BLOG READ MORE (MULTIPLE CARDS) ----------*/
+document.querySelectorAll(".read-more-btn").forEach(btn => {
+  btn.addEventListener("click", function () {
+    const card = this.closest(".blog-card");
+    const desc = card.querySelector(".blog-desc");
+
+    desc.classList.toggle("expanded");
+
+    this.textContent = desc.classList.contains("expanded")
+      ? "Read Less"
+      : "Read More";
+  });
+});
+
+</script>
+</body>
+
+</html>

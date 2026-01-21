@@ -1,0 +1,172 @@
+{
+  "architecture": [
+    {
+      "title": "APARTMENTS",
+      "number": "01",
+      "img": "images/projects/archtechure/apartments/BDA/a1.jpg",
+      "link": "pages/architecture/apartments.html"
+    },
+    {
+      "title": "COMMERCIAL",
+      "number": "02",
+      "img": "images/projects/archtechure/commercial/Satya/1.jpeg",
+      "link": "pages/architecture/commercial.html"
+    },
+    {
+      "title": "FARM HOUSE",
+      "number": "03",
+      "img": "images/projects/archtechure/farm-house/Manduva/781f75d8-92da-42cf-bd1f-3400adfa92f7.JPG",
+      "link": "pages/architecture/farm-house.html"
+    },
+    {
+      "title": "GATED COMMUNITY",
+      "number": "04",
+      "img": "images/projects/archtechure/gated-community/CHEPALUPPADA/A3.jpg",
+      "link": "pages/architecture/gated-community.html"
+    },
+    {
+      "title": "HOSPITAL",
+      "number": "05",
+      "img": "images/projects/archtechure/hospitals/OM-PRAKASH/2.jpeg",
+      "link": "pages/architecture/hospital.html"
+    },
+    {
+      "title": "INDUSTRIAL",
+      "number": "06",
+      "img": "images/projects/archtechure/Industrial/ICHOR/a6.jpg",
+      "link": "pages/architecture/industrial.html"
+    },
+    {
+      "title": "INSTITUTION",
+      "number": "07",
+      "img": "images/projects/archtechure/institution/KALPATARU/03.jpg",
+      "link": "pages/architecture/institution.html"
+    },
+    {
+      "title": "RESTAURANT",
+      "number": "08",
+      "img": "images/projects/archtechure/restaurant/Runway-9/1.jpg",
+      "link": "pages/architecture/restaurant.html"
+    },
+    {
+      "title": "SPORTS",
+      "number": "09",
+      "img": "images/projects/archtechure/sports/AYRA/1.jpg",
+      "link": "pages/architecture/sports.html"
+    }
+  ],
+
+  "landscape": [
+    {
+      "title": "APARTMENTS",
+      "number": "01",
+      "img": "images/projects/landscape/1.jpg",
+      "link": "pages/landscape/apartments.html"
+    },
+    {
+      "title": "COMMERCIAL",
+      "number": "02",
+      "img": "images/projects/landscape/2.jpg",
+      "link": "pages/landscape/commercial.html"
+    },
+    {
+      "title": "FARM HOUSE",
+      "number": "03",
+      "img": "images/projects/landscape/3.jpg",
+      "link": "pages/landscape/farm-house.html"
+    },
+    {
+      "title": "GATED COMMUNITY",
+      "number": "04",
+      "img": "images/projects/landscape/1.jpg",
+      "link": "pages/landscape/gated-community.html"
+    },
+    {
+      "title": "HOSPITAL",
+      "number": "05",
+      "img": "images/projects/landscape/2.jpg",
+      "link": "pages/landscape/hospital.html"
+    },
+    {
+      "title": "INDUSTRIAL",
+      "number": "06",
+      "img": "images/projects/landscape/3.jpg",
+      "link": "pages/landscape/industrial.html"
+    },
+    {
+      "title": "INSTITUTION",
+      "number": "07",
+      "img": "images/projects/landscape/1.jpg",
+      "link": "pages/landscape/institution.html"
+    },
+    {
+      "title": "RESTAURANT",
+      "number": "08",
+      "img": "images/projects/landscape/2.jpg",
+      "link": "pages/landscape/restaurant.html"
+    },
+    {
+      "title": "SPORTS",
+      "number": "09",
+      "img": "images/projects/landscape/3.jpg",
+      "link": "pages/landscape/sports.html"
+    }
+  ],
+
+  "interiors": [
+    {
+      "title": "APARTMENTS",
+      "number": "01",
+      "img": "images/projects/interirors/APARTMENTS/NIKITHA-APARNA-ONE/1.jpg",
+      "link": "pages/interirors/apartments.html"
+    },
+    {
+      "title": "COMMERCIAL",
+      "number": "02",
+      "img": "images/projects/interirors/COMMERCIAL/SRINIVAS-OFFICE/1.jpg",
+      "link": "pages/interirors/commercial.html"
+    },
+    {
+      "title": "CONVENTIONS",
+      "number": "03",
+      "img": "images/projects/interirors/CONVENTIONS/BANQUET-HALL/1.jpg",
+      "link": "pages/interirors/conventions.html"
+    },
+    {
+      "title": "FARM HOUSE",
+      "number": "04",
+      "img": "images/projects/interirors/FARM-HOUSE/COCO-FARM-HOUSE/1.jpg",
+      "link": "pages/interirors/farm-house.html"
+    },
+     {
+      "title": "HOSPITAL",
+      "number": "05",
+      "img": "images/projects/interirors/HOSPITAL/ELEDENT/1.jpg",
+      "link": "pages/interiors/showroom-interiors.html"
+    },
+     {
+      "title": "INDUSTRIAL",
+      "number": "06",
+      "img": "images/projects/interirors/INDUSTRIAL/ICHOR-INTERIORS/1.jpg",
+      "link": "pages/interirors/industrial.html"
+    },
+    {
+      "title": "INSTITUTION",
+      "number": "07",
+      "img": "images/projects/interirors/INSTITUTION/AYRA-ACCOMODATION-BLOCK/1.jpg",
+      "link": "pages/interirors/institution.html"
+    },
+    {
+      "title": "SPORTS",
+      "number": "08",
+      "img": "images/projects/interirors/SPORTS/AYRA/1.jpg",
+      "link": "pages/interirors/sports.html"
+    },
+    {
+      "title": "VILLA",
+      "number": "09",
+      "img": "images/projects/interirors/VILLA/TEJU-VILLA/1.jpg",
+      "link": "pages/interirors/villa.html"
+    }
+  ]
+}

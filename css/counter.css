@@ -1,0 +1,72 @@
+#counter-section {
+    background-color: var(--color-dark-gray);
+}
+
+.counter {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.progress-circle {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+}
+
+.progress-ring__circle {
+    transition: stroke-dashoffset 0.35s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke-linecap: round;
+    animation: progress-animation 4s ease-in-out infinite;
+    filter: drop-shadow(0 0 5px var(--color-gold));
+}
+
+.counter-value {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-white);
+    position: absolute;
+}
+
+.counter-label {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--color-light-gray);
+}
+
+@keyframes progress-animation {
+    0% {
+        stroke-dashoffset: 314;
+        /* Fill towards bottom */
+        transform: rotate(-360deg);
+        transform-origin: 50% 50%;
+    }
+
+    99% {
+        stroke-dashoffset: 0;
+        /* Start from top */
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+
+    100% {
+        stroke-dashoffset: 314;
+        /* Fill towards bottom */
+        transform: rotate(-360deg);
+        transform-origin: 50% 50%;
+    }
+}

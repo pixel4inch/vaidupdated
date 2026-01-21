@@ -1,0 +1,275 @@
+{
+  "landscape": [
+    {
+      "title": "APARTMENTS",
+      "number": "01",
+      "img": "images/projects/landscape/Apartments/ApartmentLandscape/01.jpg",
+      "link": "pages/landscape/apartments.html"
+    },
+    {
+      "title": "COMMERCIAL",
+      "number": "02",
+      "img": "images/projects/landscape/Commercial/Sumadura/01.jpg",
+      "link": "pages/landscape/commercial.html"
+    },
+    {
+      "title": "FARM HOUSE",
+      "number": "03",
+      "img": "images/projects/landscape/FarmHouse/COCOFarmHouse/01.JPG",
+      "link": "pages/landscape/farm-house.html"
+    },
+    {
+      "title": "GATED COMMUNITY",
+      "number": "04",
+      "img": "images/projects/landscape/GatedCommunity/GatedCommunity/01.jpg",
+      "link": "pages/landscape/gated-community.html"
+    },
+    {
+      "title": "RESORTS",
+      "number": "05",
+      "img": "images/projects/landscape/Resorts/ResortsLandscape/1.jpg",
+      "link": "pages/landscape/Resorts.html"
+    },
+    {
+      "title": "INDUSTRIAL",
+      "number": "06",
+      "img": "images/projects/landscape/Industrial/Cadbuary/01.png",
+      "link": "pages/landscape/industrial.html"
+    },
+    {
+      "title": "INSTITUTION",
+      "number": "07",
+      "img": "images/projects/landscape/Institutional/InstitutionalLandscape/1.jpg",
+      "link": "pages/landscape/institution.html"
+    },
+    {
+      "title": "RESTAURANT",
+      "number": "08",
+      "img": "images/projects/landscape/Restaurants/PadmavathiVillas/4.png",
+      "link": "pages/landscape/restaurant.html"
+    },
+    {
+      "title": "SPORTS",
+      "number": "09",
+      "img": "images/projects/landscape/Sports/sportslandscape/1.jpg",
+      "link": "pages/landscape/sports.html"
+    }
+  ],
+  "apartments": [
+    {
+      "id": "Apartment_Landscape",
+      "title": "Apartment Landscape",
+      "location": "",
+      "siteArea": "",
+      "Type": "Landscape",
+      "img": "../../images/projects/landscape/Apartments/ApartmentLandscape/01.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/landscape/Apartments/ApartmentLandscape/01.jpg",
+        "../../images/projects/landscape/Apartments/ApartmentLandscape/02.png"
+       
+      ]
+    }
+    
+  ],
+  "commercial": [
+    {
+      "id": "Sumadura",
+      "title": "Sumadura",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/landscape/Commercial/Sumadura/01.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/landscape/Commercial/Sumadura/01.jpg",
+        "../../images/projects/landscape/Commercial/Sumadura/02.jpg",
+        "../../images/projects/landscape/Commercial/Sumadura/03.jpg"
+      ]
+    }
+  ],
+  "farm-house": [
+    {
+      "id": "coco-farmhouse",
+      "title": "COCO FARM HOUSE ",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/landscape/FarmHouse/COCOFarmHouse/01.JPG",
+      "description": "Rural residential landscape blending with natural landscape featuring sustainable design elements.",
+      "gallery": [
+        "../../images/projects/landscape/FarmHouse/COCOFarmHouse/01.JPG",
+         "../../images/projects/landscape/FarmHouse/COCOFarmHouse/02.JPG",
+          "../../images/projects/landscape/FarmHouse/COCOFarmHouse/03.JPG",
+           "../../images/projects/landscape/FarmHouse/COCOFarmHouse/04.JPG"
+          
+        
+      ]
+    }
+    
+  ],
+  "gated-community": [
+    {
+      "id": "Gated Community",
+      "title": "GatedCommunity",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/landscape/GatedCommunity/GatedCommunity/01.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/landscape/GatedCommunity/GatedCommunity/01.jpg",
+        "../../images/projects/landscape/GatedCommunity/GatedCommunity/02.jpg",
+        "../../images/projects/landscape/GatedCommunity/GatedCommunity/03.jpg",
+        "../../images/projects/landscape/GatedCommunity/GatedCommunity/04.jpg",
+        "../../images/projects/landscape/GatedCommunity/GatedCommunity/05.jpg",
+        "../../images/projects/landscape/GatedCommunity/GatedCommunity/06.jpg",
+        "../../images/projects/landscape/GatedCommunity/GatedCommunity/07.jpg",
+        "../../images/projects/landscape/GatedCommunity/GatedCommunity/08.jpg"
+        
+
+        
+      ]
+    }
+   
+  ],
+  "resorts": [
+    {
+      "id": "Resorts Landscape",
+      "title": "Resorts Landscape",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/landscape/Resorts/ResortsLandscape/1.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/landscape/Resorts/ResortsLandscape/1.jpg"
+        
+      ]
+    }
+  ],
+  "Industrial": [
+    {
+      "id": "CADBURY",
+      "title": "CADBURY",
+      "location": "Sri City",
+      "siteArea": "150 Acres",
+      "Type": "Industrial Extension",
+      "img": "../../images/projects/landscape/Industrial/Cadbuary/01.png",
+      "description": "",
+      "gallery": [
+        "../../images/projects/landscape/Industrial/Cadbuary/01.png",
+         "../../images/projects/landscape/Industrial/Cadbuary/02.png"
+        
+      ]
+    },
+    {
+      "id": "CCL",
+      "title": "CCL",
+      "location": "Duggirela",
+      "siteArea": "100 Acres",
+      "Type": "Industrial Landscape",
+      "img": "../../images/projects/landscape/Industrial/CCL/1.JPG",
+      "description": "",
+      "gallery": [
+        "../../images/projects/landscape/Industrial/CCL/1.JPG",
+        "../../images/projects/landscape/Industrial/CCL/2.JPG",
+        "../../images/projects/landscape/Industrial/CCL/3.JPG",
+        "../../images/projects/landscape/Industrial/CCL/4.JPG",
+        "../../images/projects/landscape/Industrial/CCL/5.JPG",
+        "../../images/projects/landscape/Industrial/CCL/6.png",
+        "../../images/projects/landscape/Industrial/CCL/7.JPG",
+        "../../images/projects/landscape/Industrial/CCL/8.JPG",
+        "../../images/projects/landscape/Industrial/CCL/9.JPG",
+         "../../images/projects/landscape/Industrial/CCL/10.JPG"
+      ]
+    }
+    
+  ],
+  "institution": [
+
+    {
+      "id": "ISH",
+      "title": "ISH",
+      "location": "Patancheru",
+      "siteArea": "1500 SQ.M",
+      "Type": "Play Park",
+      "img": "../../images/projects/landscape/Institutional/ISH/6.jpeg",
+      "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+      "gallery": [
+       
+        "../../images/projects/landscape/Institutional/ISH/6.jpeg",
+        "../../images/projects/landscape/Institutional/ISH/7.jpeg",
+        "../../images/projects/landscape/Institutional/ISH/8.jpeg",
+        "../../images/projects/landscape/Institutional/ISH/9.jpeg",
+          "../../images/projects/landscape/Institutional/ISH/10.jpeg",
+          "../../images/projects/landscape/Institutional/ISH/11.jpeg",
+          "../../images/projects/landscape/Institutional/ISH/12.jpeg",
+          "../../images/projects/landscape/Institutional/ISH/13.jpeg",
+            "../../images/projects/landscape/Institutional/ISH/14.jpeg",
+              "../../images/projects/landscape/Institutional/ISH/15.jpeg",
+                "../../images/projects/landscape/Institutional/ISH/16.jpeg",
+                  "../../images/projects/landscape/Institutional/ISH/17.jpeg",
+                    "../../images/projects/landscape/Institutional/ISH/18.jpeg",
+                      "../../images/projects/landscape/Institutional/ISH/19.jpeg"
+      ]
+    },
+    {
+      "id": "Institutional Landscape",
+      "title": "Institutional Landscape",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/landscape/Institutional/InstitutionalLandscape/1.jpg",
+      "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+      "gallery": [
+        "../../images/projects/landscape/Institutional/InstitutionalLandscape/1.jpg",
+        "../../images/projects/landscape/Institutional/InstitutionalLandscape/2.jpg",
+        "../../images/projects/landscape/Institutional/InstitutionalLandscape/3.jpg",
+        "../../images/projects/landscape/Institutional/InstitutionalLandscape/4.jpg",
+        "../../images/projects/landscape/Institutional/InstitutionalLandscape/5.jpg"
+       
+      ]
+    }
+    
+  ],
+  "restaurant": [
+    {
+      "id": "krishna",
+      "title": "krishna",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/landscape/Restaurants/PadmavathiVillas/1.png",
+      "description": "",
+      "gallery": [
+        "../../images/projects/landscape/Restaurants/PadmavathiVillas/1.png",
+        "../../images/projects/landscape/Restaurants/PadmavathiVillas/2.png",
+        "../../images/projects/landscape/Restaurants/PadmavathiVillas/3.png",
+        "../../images/projects/landscape/Restaurants/PadmavathiVillas/4.png"
+      ]
+    }
+    
+  ],
+  "sports": [
+    {
+      "id": "sportslandscape",
+      "title": "sports landscape",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/landscape/Sports/sportslandscape/1.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/landscape/sports/sportslandscape/1.jpg",
+        "../../images/projects/landscape/sports/sportslandscape/2.jpg",
+         "../../images/projects/landscape/sports/sportslandscape/3.jpg",
+          "../../images/projects/landscape/sports/sportslandscape/4.jpg",
+           "../../images/projects/landscape/sports/sportslandscape/5.jpg",
+            "../../images/projects/landscape/sports/sportslandscape/6.jpg"
+       
+      ]
+    }
+        
+  ]
+}

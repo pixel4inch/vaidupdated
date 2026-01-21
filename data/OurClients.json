@@ -1,0 +1,16 @@
+{
+    "clients": [
+        { "logo": "images/clients/1.png" },
+        { "logo": "images/clients/2.png" },
+        { "logo": "images/clients/3.png" },
+        { "logo": "images/clients/4.png" },
+        { "logo": "images/clients/5.png" },
+        { "logo": "images/clients/6.png" },
+        { "logo": "images/clients/7.png" },
+        { "logo": "images/clients/8.png" },
+        { "logo": "images/clients/9.png" },
+        { "logo": "images/clients/10.png" },
+        { "logo": "images/clients/11.png" },
+        { "logo": "images/clients/12.png" }
+       ]
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Project Loader</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Project Loader Test</h1>
+
+        <div class="test-section">
+            <h3>Current Page Info</h3>
+            <div id="pageInfo"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>Project Folders</h3>
+            <div id="projectFolders"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>Sample Image Paths</h3>
+            <div id="imagePaths"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>Generated Projects</h3>
+            <div id="generatedProjects"></div>
+        </div>
+    </div>
+
+    <script src="../js/project-loader.js"></script>
+    <script>
+        // Override URL to simulate apartments page
+        Object.defineProperty(window.location, 'pathname', {
+            writable: true,
+            value: '/pages/architecture/apartments.html'
+        });
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const loader = new ProjectImageLoader();
+
+            // Test page info
+            const pageInfo = loader.getCurrentPageInfo();
+            document.getElementById('pageInfo').innerHTML = `
+                <p>Category: ${pageInfo.category}</p>
+                <p>Subcategory: ${pageInfo.subcategory}</p>
+            `;
+
+            // Test project folders
+            const folders = loader.getProjectFolders();
+            document.getElementById('projectFolders').innerHTML = `
+                <p>Folders: ${JSON.stringify(folders)}</p>
+            `;
+
+            // Test image paths for first folder
+            if (folders.length > 0) {
+                const imagePaths = loader.generateImagePaths(folders[0], 5);
+                document.getElementById('imagePaths').innerHTML = `
+                    <p>Sample paths for "${folders[0]}":</p>
+                    <ul>${imagePaths.slice(0, 10).map(path => `<li>${path}</li>`).join('')}</ul>
+                `;
+            }
+
+            // Test project generation (this might take a moment)
+            document.getElementById('generatedProjects').innerHTML = '<p>Loading projects...</p>';
+            try {
+                const projects = await loader.generateProjectData();
+                document.getElementById('generatedProjects').innerHTML = `
+                    <p>Generated ${projects.length} projects:</p>
+                    <ul>${projects.map(p => `<li>${p.title} (${p.images.length} images)</li>`).join('')}</ul>
+                    <details>
+                        <summary>Full Project Data</summary>
+                        <pre>${JSON.stringify(projects, null, 2)}</pre>
+                    </details>
+                `;
+            } catch (error) {
+                document.getElementById('generatedProjects').innerHTML = `
+                    <p style="color: red;">Error: ${error.message}</p>
+                `;
+            }
+        });
+    </script>
+</body>
+
+</html>

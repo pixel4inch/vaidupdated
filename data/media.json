@@ -1,0 +1,198 @@
+{
+    
+"Architecture": [
+         
+     {
+            
+            "img": "images/media/Architecture/1.jpg"
+        },
+        {
+           
+            "img": "images/media/Architecture/2.jpg"
+        },
+         {
+            
+            "img": "images/media/Architecture/3.jpg"
+        },
+         {
+           
+            "img": "images/media/Architecture/4.jpg"
+        },
+         {
+           
+            "img": "images/media/Architecture/5.jpg"
+        },
+        {
+           
+            "img": "images/media/Architecture/6.png"
+        },
+        {
+            
+            "img": "images/media/Architecture/7.jpg"
+        }, 
+       
+       
+        {
+           
+            "img": "images/media/Architecture/8.jpg"
+        }, {
+           
+            "img": "images/media/Architecture/9.png"
+        }, {
+            
+            "img": "images/media/Architecture/10.jpg"
+        }, {
+           
+            "img": "images/media/Architecture/11.jpg"
+        }, {
+            
+            "img": "images/media/Architecture/12.jpg"
+        }, {
+            
+            "img": "images/media/Architecture/13.png"
+        },
+        {
+           
+            "img": "images/media/Architecture/14.jpg"
+        },
+        {
+           
+            "img": "images/media/Architecture/15.jpg"
+        },{
+           
+            "img": "images/media/Architecture/16.jpg"
+        }
+       
+    ],
+
+
+    "Interior": [
+
+        {
+           
+            "img": "images/media/Interior/1.png"
+        },
+        {
+            
+            "img": "images/media/Interior/2.jpg"
+        },
+         {
+           
+            "img": "images/media/Interior/3.jpg"
+        },
+         {
+           
+            "img": "images/media/Interior/4.png"
+        },
+         {
+           
+            "img": "images/media/Interior/5.jpeg"
+        },
+        {
+            
+            "img": "images/media/Interior/6.jpg"
+        },
+        {
+            
+            "img": "images/media/Interior/7.jpeg"
+        }, 
+       
+        
+        {
+            
+            "img": "images/media/Interior/8.jpg"
+        }, {
+          
+            "img": "images/media/Interior/9.jpg"
+        }, {
+           
+            "img": "images/media/Interior/10.jpg"
+        }, {
+            
+            "img": "images/media/Interior/11.png"
+        }, {
+           
+            "img": "images/media/Interior/12.jpg"
+        }, {
+            
+            "img": "images/media/Interior/13.jpg"
+        },
+        {
+           
+            "img": "images/media/Interior/14.jpg"
+        },
+        {
+           
+            "img": "images/media/Interior/15.jpg"
+        },{
+           
+            "img": "images/media/Interior/16.jpg"
+        }
+       
+    ],
+
+    "Landscape": [
+        
+        {
+           
+            "img": "images/media/Landscape/1.png"
+        },
+        {
+            
+            "img": "images/media/Landscape/2.jpg"
+        },
+         {
+           
+            "img": "images/media/Landscape/3.jpg"
+        },
+         {
+           
+            "img": "images/media/Landscape/4.jpg"
+        },
+         {
+           
+            "img": "images/media/Landscape/5.jpg"
+        },
+        {
+            
+            "img": "images/media/Landscape/6.jpg"
+        },
+        {
+            
+            "img": "images/media/Landscape/7.jpg"
+        }, 
+       
+        
+        {
+            
+            "img": "images/media/Landscape/8.png"
+        }, {
+          
+            "img": "images/media/Landscape/9.jpg"
+        }, {
+           
+            "img": "images/media/Landscape/10.jpg"
+        }, {
+            
+            "img": "images/media/Landscape/11.jpg"
+        }, {
+           
+            "img": "images/media/Landscape/12.jpg"
+        }, {
+            
+            "img": "images/media/Landscape/13.jpg"
+        },
+        {
+           
+            "img": "images/media/Landscape/14.jpg"
+        },
+        {
+           
+            "img": "images/media/Landscape/15.jpg"
+        },{
+           
+            "img": "images/media/Landscape/16.jpg"
+        }
+       
+    ]
+}

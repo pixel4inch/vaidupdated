@@ -1,0 +1,621 @@
+{
+  "architecture": [
+    {
+      "title": "APARTMENTS",
+      "number": "01",
+      "img": "images/projects/archtechure/apartments/BDA/a1.jpg",
+      "link": "pages/architecture/apartments.html"
+    },
+    {
+      "title": "COMMERCIAL",
+      "number": "02",
+      "img": "images/projects/archtechure/commercial/Satya/1.jpeg",
+      "link": "pages/architecture/commercial.html"
+    },
+    {
+      "title": "FARM HOUSE",
+      "number": "03",
+      "img": "images/projects/archtechure/farm-house/Manduva/01.JPG",
+      "link": "pages/architecture/farm-house.html"
+    },
+    {
+      "title": "GATED COMMUNITY",
+      "number": "04",
+      "img": "images/projects/archtechure/gated-community/CHEPALUPPADA/A3.jpg",
+      "link": "pages/architecture/gated-community.html"
+    },
+    {
+      "title": "HOSPITAL",
+      "number": "05",
+      "img": "images/projects/archtechure/hospitals/OM-PRAKASH/2.jpeg",
+      "link": "pages/architecture/hospital.html"
+    },
+    {
+      "title": "INDUSTRIAL",
+      "number": "06",
+      "img": "images/projects/archtechure/Industrial/CADBURY/01.jpg",
+      "link": "pages/architecture/industrial.html"
+    },
+    {
+      "title": "INSTITUTION",
+      "number": "07",
+      "img": "images/projects/archtechure/institution/KALPATARU/003.jpg",
+      "link": "pages/architecture/institution.html"
+    },
+    {
+      "title": "RESTAURANT",
+      "number": "08",
+      "img": "images/projects/archtechure/restaurant/Runway-9/1.jpg",
+      "link": "pages/architecture/restaurant.html"
+    },
+    {
+      "title": "SPORTS",
+      "number": "09",
+      "img": "images/projects/archtechure/sports/AYRA/01.JPG",
+      "link": "pages/architecture/sports.html"
+    }
+  ],
+  "apartments": [
+    {
+      "id": "bda-apartments",
+      "title": "BDA Apartments",
+      "location": "Anekal & Lingapura",
+      "siteArea": "50 Acres",
+      "Type": "High Rise Apartments",
+      "img": "../../images/projects/archtechure/apartments/BDA/a1.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/apartments/BDA/a1.jpg",
+        "../../images/projects/archtechure/apartments/BDA/a3.jpg",
+        "../../images/projects/archtechure/apartments/BDA/a4.jpg",
+        "../../images/projects/archtechure/apartments/BDA/a5.jpg",
+        "../../images/projects/archtechure/apartments/BDA/a6.jpg",
+        "../../images/projects/archtechure/apartments/BDA/a7.jpg"
+      ]
+    },
+    {
+      "id": "Epitome-apartments",
+      "title": "Epitome Apartments",
+      "location": "Nandhyal",
+      "siteArea": "2000 SQM",
+      "Type": "Apartments",
+      "img": "../../images/projects/archtechure/apartments/NANDYAL/001.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/apartments/NANDYAL/001.jpg",
+        "../../images/projects/archtechure/apartments/NANDYAL/002.jpg",
+        "../../images/projects/archtechure/apartments/NANDYAL/003.jpg",
+        "../../images/projects/archtechure/apartments/NANDYAL/004.jpg",
+        "../../images/projects/archtechure/apartments/NANDYAL/005.jpg",
+        "../../images/projects/archtechure/apartments/NANDYAL/006.jpg"
+      ]
+    },
+    {
+      "id": "munchu-konda-apartments",
+      "title": "Munchu Konda",
+      "location": "Visakhapatnam",
+      "siteArea": "2000 SQM",
+      "Type": "Gated Community Villas",
+      "img": "../../images/projects/archtechure/apartments/Vizag-Appartments/001.jpg",
+      "description": "Modern apartment complex with optimized layouts.",
+      "gallery": [
+        "../../images/projects/archtechure/apartments/Vizag-Appartments/001.jpg",
+        "../../images/projects/archtechure/apartments/Vizag-Appartments/002.jpg",
+        "../../images/projects/archtechure/apartments/Vizag-Appartments/003.jpg",
+        "../../images/projects/archtechure/apartments/Vizag-Appartments/004.jpg"
+      ]
+    }
+  ],
+  "commercial": [
+    {
+      "id": "rohit-commercial-buildings",
+      "title": "Rohit Commercial Building",
+      "location": "Gopanapalle",
+      "siteArea": "1.2 Acres",
+      "Type": "Commercial & Retail Spaces",
+      "img": "../../images/projects/archtechure/commercial/Rohit/1.jpeg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/commercial/Rohit/1.jpeg",
+        "../../images/projects/archtechure/commercial/Rohit/2.jpeg",
+        "../../images/projects/archtechure/commercial/Rohit/3.jpeg",
+        "../../images/projects/archtechure/commercial/Rohit/4.jpeg",
+        "../../images/projects/archtechure/commercial/Rohit/5.jpeg",
+        "../../images/projects/archtechure/commercial/Rohit/6.jpeg"
+      ]
+    },
+    {
+      "id": "Anand-commercial-buildings",
+      "title": "Anand Commercial Building",
+      "location": "Shamerpet",
+      "siteArea": "1 Acres",
+      "Type": "Commeercial",
+      "img": "../../images/projects/archtechure/commercial/Anand/01.jpg",
+      "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+      "gallery": [
+        "../../images/projects/archtechure/commercial/Anand/01.jpg",
+        "../../images/projects/archtechure/commercial/Anand/02.jpg",
+        "../../images/projects/archtechure/commercial/Anand/03.jpg",
+        "../../images/projects/archtechure/commercial/Anand/04.jpg"
+      ]
+    },
+    {
+      "id": "satya-commercial-complex",
+      "title": "Satya Commercial Complex",
+      "location": " Tellapur",
+      "siteArea": "3 Acres",
+      "Type": " High Rise Commercial",
+      "img": "../../images/projects/archtechure/commercial/Satya/1.jpeg",
+      "description": "Multi-use commercial complex with retail and office spaces designed for optimal functionality.",
+      "gallery": [
+        "../../images/projects/archtechure/commercial/Satya/1.jpeg",
+        "../../images/projects/archtechure/commercial/Satya/2.jpeg",
+        "../../images/projects/archtechure/commercial/Satya/3.jpeg",
+        "../../images/projects/archtechure/commercial/Satya/4.jpeg"
+      ]
+    }
+  ],
+  "farm-house": [
+    {
+      "id": "coco-farmhouse",
+      "title": "COCO FARM HOUSE ",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/farm-house/COCO-FARM-HOUSE/001.jpg",
+      "description": "Rural residential architecture blending with natural landscape featuring sustainable design elements.",
+      "gallery": [
+        "../../images/projects/archtechure/farm-house/COCO-FARM-HOUSE/001.jpg",
+        "../../images/projects/archtechure/farm-house/COCO-FARM-HOUSE/002.jpg",
+        "../../images/projects/archtechure/farm-house/COCO-FARM-HOUSE/003.jpg",
+        "../../images/projects/archtechure/farm-house/COCO-FARM-HOUSE/004.jpg",
+        "../../images/projects/archtechure/farm-house/COCO-FARM-HOUSE/005.jpg",
+        "../../images/projects/archtechure/farm-house/COCO-FARM-HOUSE/006.jpg"
+      ]
+    },
+    {
+      "id": "manduva-farmhouse",
+      "title": "Manduva FARM HOUSE ",
+      "location": "Hderbad",
+      "siteArea": "3.7 Acres",
+      "Type": " Manduva Style House",
+      "img": "../../images/projects/archtechure/farm-house/Manduva/01.JPG",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/farm-house/Manduva/01.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/02.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/03.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/04.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/05.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/06.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/07.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/08.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/09.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/10.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/11.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/12.JPG",
+        "../../images/projects/archtechure/farm-house/Manduva/13.JPG"
+      ]
+    },
+    {
+      "id": "nandakishore-farmhouse",
+      "title": "Nandakishore FARM HOUSE ",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/farm-house/Nandakishore/001.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/farm-house/Nandakishore/001.jpg",
+        "../../images/projects/archtechure/farm-house/Nandakishore/002.jpg",
+        "../../images/projects/archtechure/farm-house/Nandakishore/003.jpg",
+        "../../images/projects/archtechure/farm-house/Nandakishore/004.jpg",
+        "../../images/projects/archtechure/farm-house/Nandakishore/005.jpg",
+        "../../images/projects/archtechure/farm-house/Nandakishore/006.jpg",
+        "../../images/projects/archtechure/farm-house/Nandakishore/007.jpg"
+      ]
+    },
+    {
+      "id": "thatamanavadu-farmhouse",
+      "title": "THATA MANAVADU FARM HOUSE ",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/farm-house/thatamanavadu/001.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/farm-house/thatamanavadu/001.jpg",
+        "../../images/projects/archtechure/farm-house/thatamanavadu/002.jpg",
+        "../../images/projects/archtechure/farm-house/thatamanavadu/003.jpg",
+        "../../images/projects/archtechure/farm-house/thatamanavadu/004.jpg",
+        "../../images/projects/archtechure/farm-house/thatamanavadu/005.jpg",
+        "../../images/projects/archtechure/farm-house/thatamanavadu/006.jpg",
+        "../../images/projects/archtechure/farm-house/thatamanavadu/007.jpg",
+        "../../images/projects/archtechure/farm-house/thatamanavadu/008.jpg"
+      ]
+    },
+    {
+      "id": "usa_nc",
+      "title": "USA NC FARM HOUSE ",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/farm-house/usa_nc/01.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/farm-house/usa_nc/01.jpg",
+        "../../images/projects/archtechure/farm-house/usa_nc/02.jpg",
+        "../../images/projects/archtechure/farm-house/usa_nc/03.jpg",
+        "../../images/projects/archtechure/farm-house/usa_nc/04.jpg",
+        "../../images/projects/archtechure/farm-house/usa_nc/05.jpg",
+        "../../images/projects/archtechure/farm-house/usa_nc/06.jpg",
+        "../../images/projects/archtechure/farm-house/usa_nc/07.jpg"
+      ]
+    }
+  ],
+  "gated-community": [
+    {
+      "id": "BlueBayLayou",
+      "title": "Blue Bay Layout",
+      "location": "Visakhapatnam",
+      "siteArea": "7 Acres",
+      "Type": "Gated Community Villas",
+      "img": "../../images/projects/archtechure/gated-community/CHEPALUPPADA/A1.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/gated-community/CHEPALUPPADA/A1.jpg",
+        "../../images/projects/archtechure/gated-community/CHEPALUPPADA/A2.jpg",
+        "../../images/projects/archtechure/gated-community/CHEPALUPPADA/A3.jpg",
+        "../../images/projects/archtechure/gated-community/CHEPALUPPADA/A4.jpg",
+        "../../images/projects/archtechure/gated-community/CHEPALUPPADA/A5.jpg",
+        "../../images/projects/archtechure/gated-community/CHEPALUPPADA/A6.jpg"
+      ]
+    },
+    {
+      "id": "Imark",
+      "title": "Imark",
+      "location": "Vikarabad",
+      "siteArea": "25 Acres",
+      "Type": "Gated Community Villas",
+      "img": "../../images/projects/archtechure/gated-community/Imark/w-1.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/gated-community/Imark/W-1.jpg",
+        "../../images/projects/archtechure/gated-community/Imark/W-2.jpeg",
+        "../../images/projects/archtechure/gated-community/Imark/W-3.jpeg",
+        "../../images/projects/archtechure/gated-community/Imark/W-4.jpg",
+        "../../images/projects/archtechure/gated-community/Imark/W-5.jpg",
+        "../../images/projects/archtechure/gated-community/Imark/W-6.jpg",
+        "../../images/projects/archtechure/gated-community/Imark/W-7.jpg"
+      ]
+    },
+    {
+      "id": "KAPULAPPADA",
+      "title": "KAPULAPPADA",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/gated-community/KAPULAPPADA/A1.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/gated-community/KAPULAPPADA/A1.jpg",
+        "../../images/projects/archtechure/gated-community/KAPULAPPADA/A2.jpg",
+        "../../images/projects/archtechure/gated-community/KAPULAPPADA/A3.jpg",
+        "../../images/projects/archtechure/gated-community/KAPULAPPADA/A4.jpg",
+        "../../images/projects/archtechure/gated-community/KAPULAPPADA/A5.jpg",
+        "../../images/projects/archtechure/gated-community/KAPULAPPADA/A6.jpg"
+      ]
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "OM-PRAKASH",
+      "title": "OM-PRAKASH",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/hospitals/OM-PRAKASH/1.jpeg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/hospitals/OM-PRAKASH/1.jpeg",
+        "../../images/projects/archtechure/hospitals/OM-PRAKASH/2.jpeg"
+      ]
+    },
+    {
+      "id": "Web-arch-resort",
+      "title": "Web Arch Resort",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/hospitals/Web-arch-resort/001.JPG",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/001.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/002.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/003.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/004.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/005.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/006.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/007.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/009.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/010.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/011.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/012.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/013.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/014.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/015.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/016.JPG",
+        "../../images/projects/archtechure/hospitals/Web-arch-resort/017.JPG"
+      ]
+    },
+    {
+      "id": "OM-PRAKASH",
+      "title": "OM-PRAKASH",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/hospitals/OM-PRAKASH/1.jpeg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/hospitals/OM-PRAKASH/1.jpeg",
+        "../../images/projects/archtechure/hospitals/OM-PRAKASH/2.jpeg"
+      ]
+    }
+  ],
+  "Industrial": [
+    {
+      "id": "CADBURY",
+      "title": "CADBURY",
+      "location": "Sri City",
+      "siteArea": "150 Acres",
+      "Type": "Industrial Extension",
+      "img": "../../images/projects/archtechure/Industrial/CADBURY/01.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/Industrial/CADBURY/01.jpg",
+        "../../images/projects/archtechure/Industrial/CADBURY/02.jpg",
+        "../../images/projects/archtechure/Industrial/CADBURY/03.jpg",
+        "../../images/projects/archtechure/Industrial/CADBURY/04.jpg",
+        "../../images/projects/archtechure/Industrial/CADBURY/05.jpg",
+        "../../images/projects/archtechure/Industrial/CADBURY/06.jpg",
+        "../../images/projects/archtechure/Industrial/CADBURY/07.jpg",
+        "../../images/projects/archtechure/Industrial/CADBURY/08.jpg",
+        "../../images/projects/archtechure/Industrial/CADBURY/09.jpg"
+      ]
+    },
+    {
+      "id": "CCL",
+      "title": "CCL",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/Industrial/CCL/001.JPG",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/Industrial/CCL/001.JPG",
+        "../../images/projects/archtechure/Industrial/CCL/002.JPG",
+        "../../images/projects/archtechure/Industrial/CCL/003.JPG",
+        "../../images/projects/archtechure/Industrial/CCL/004.JPG",
+        "../../images/projects/archtechure/Industrial/CCL/005.JPG",
+        "../../images/projects/archtechure/Industrial/CCL/006.JPG",
+        "../../images/projects/archtechure/Industrial/CCL/007.JPG",
+        "../../images/projects/archtechure/Industrial/CCL/008.JPG",
+        "../../images/projects/archtechure/Industrial/CCL/009.JPG"
+      ]
+    },
+    {
+      "id": "ICHOR",
+      "title": "ICHOR",
+      "location": "Turkapally",
+      "siteArea": "10.7 Acres",
+      "Type": " Reseaerch & Production Block",
+      "img": "../../images/projects/archtechure/Industrial/ICHOR/a1.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/Industrial/ICHOR/a1.jpg",
+        "../../images/projects/archtechure/Industrial/ICHOR/a2.jpg",
+        "../../images/projects/archtechure/Industrial/ICHOR/a3.jpg",
+        "../../images/projects/archtechure/Industrial/ICHOR/a4.jpg",
+        "../../images/projects/archtechure/Industrial/ICHOR/a5.jpg",
+        "../../images/projects/archtechure/Industrial/ICHOR/a6.jpg"
+      ]
+    },
+    {
+      "id": "Rahul-Factory",
+      "title": "Rahul-Factory",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/Industrial/Rahul-Factory/01.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/Industrial/Rahul-Factory/01.jpg",
+        "../../images/projects/archtechure/Industrial/Rahul-Factory/02.jpg",
+        "../../images/projects/archtechure/Industrial/Rahul-Factory/03.jpg",
+        "../../images/projects/archtechure/Industrial/Rahul-Factory/04.jpg"
+      ]
+    }
+  ],
+  "institution": [
+    {
+      "id": "KALPATARU",
+      "title": "KALPATARU",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/institution/KALPATARU/001.jpg",
+      "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+      "gallery": [
+        "../../images/projects/archtechure/institution/KALPATARU/001.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/002.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/003.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/004.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/005.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/006.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/007.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/008.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/009.jpg"
+      ]
+    },
+    {
+      "id": "PMJVK Educational Institue",
+      "title": "PMJVK Educational Institue",
+      "location": "Nellore",
+      "siteArea": "25 Acres",
+      "Type": " Educational Block",
+      "img": "../../images/projects/archtechure/institution/pnjvk/001.jpeg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/institution/pnjvk/001.jpeg",
+        "../../images/projects/archtechure/institution/pnjvk/002.jpeg",
+        "../../images/projects/archtechure/institution/pnjvk/003.jpeg",
+        "../../images/projects/archtechure/institution/pnjvk/004.jpeg",
+        "../../images/projects/archtechure/institution/pnjvk/005.jpeg",
+        "../../images/projects/archtechure/institution/pnjvk/006.jpeg"
+      ]
+    },
+    {
+      "id": "KALPATARU",
+      "title": "KALPATARU",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/institution/KALPATARU/001.jpg",
+      "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+      "gallery": [
+        "../../images/projects/archtechure/institution/KALPATARU/001.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/002.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/003.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/004.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/005.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/006.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/007.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/008.jpg",
+        "../../images/projects/archtechure/institution/KALPATARU/009.jpg"
+      ]
+    }
+  ],
+  "restaurant": [
+    {
+      "id": "krishna",
+      "title": "krishna",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/restaurant/krishna/001.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/restaurant/krishna/001.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/002.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/003.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/004.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/005.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/006.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/007.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/008.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/009.jpg"
+      ]
+    },
+    {
+      "id": "Runway-9",
+      "title": "Runway-9",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/restaurant/Runway-9/1.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/restaurant/Runway-9/1.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/2.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/3.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/4.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/5.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/6.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/7.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/8.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/9.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/10.jpg",
+        "../../images/projects/archtechure/restaurant/Runway-9/11.jpg"
+      ]
+    },
+    {
+      "id": "krishna",
+      "title": "krishna",
+      "location": "",
+      "siteArea": "",
+      "Type": "",
+      "img": "../../images/projects/archtechure/restaurant/krishna/001.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/restaurant/krishna/001.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/002.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/003.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/004.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/005.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/006.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/007.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/008.jpg",
+        "../../images/projects/archtechure/restaurant/krishna/009.jpg"
+      ]
+    }
+  ],
+  "sports": [
+    {
+      "id": "AYRA",
+      "title": "AYRA",
+      "location": "Bangalore",
+      "siteArea": "4 Acres",
+      "Type": "Sports Block",
+      "img": "../../images/projects/archtechure/sports/AYRA/01.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/sports/AYRA/01.jpg",
+        "../../images/projects/archtechure/sports/AYRA/02.jpg",
+        "../../images/projects/archtechure/sports/AYRA/03.jpg",
+        "../../images/projects/archtechure/sports/AYRA/04.jpg",
+        "../../images/projects/archtechure/sports/AYRA/05.jpeg",
+        "../../images/projects/archtechure/sports/AYRA/06.jpeg",
+        "../../images/projects/archtechure/sports/AYRA/07.jpeg",
+        "../../images/projects/archtechure/sports/AYRA/08.jpeg"
+      ]
+    },
+    {
+      "id": "AYRA",
+      "title": "AYRA",
+      "location": "Bangalore",
+      "siteArea": "4 Acres",
+      "Type": "Sports Block",
+      "img": "../../images/projects/archtechure/sports/AYRA/01.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/sports/AYRA/01.jpg",
+        "../../images/projects/archtechure/sports/AYRA/02.jpg",
+        "../../images/projects/archtechure/sports/AYRA/03.jpg",
+        "../../images/projects/archtechure/sports/AYRA/04.jpg",
+        "../../images/projects/archtechure/sports/AYRA/05.jpeg",
+        "../../images/projects/archtechure/sports/AYRA/06.jpeg",
+        "../../images/projects/archtechure/sports/AYRA/07.jpeg",
+        "../../images/projects/archtechure/sports/AYRA/08.jpeg"
+      ]
+    },
+    {
+      "id": "AYRA",
+      "title": "AYRA",
+      "location": "Bangalore",
+      "siteArea": "4 Acres",
+      "Type": "Sports Block",
+      "img": "../../images/projects/archtechure/sports/AYRA/01.jpg",
+      "description": "",
+      "gallery": [
+        "../../images/projects/archtechure/sports/AYRA/01.jpg",
+        "../../images/projects/archtechure/sports/AYRA/02.jpg",
+        "../../images/projects/archtechure/sports/AYRA/03.jpg",
+        "../../images/projects/archtechure/sports/AYRA/04.jpg",
+        "../../images/projects/archtechure/sports/AYRA/05.jpeg",
+        "../../images/projects/archtechure/sports/AYRA/06.jpeg",
+        "../../images/projects/archtechure/sports/AYRA/07.jpeg",
+        "../../images/projects/archtechure/sports/AYRA/08.jpeg"
+      ]
+    }
+  ]
+}

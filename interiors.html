@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <title>Interior Design Services - Luxury Residential & Commercial Interiors | Vaid Associates</title>
+    <meta name="description"
+        content="Transform your spaces with Vaid Associates' premium interior design services. Specializing in apartments, villas, offices, hospitals, hotels, and commercial interiors across multiple cities.">
+    <meta name="keywords"
+        content="interior design services, luxury interiors, residential interior design, commercial interiors, apartment interiors, villa interiors, office design, hospital interiors">
+    <meta name="author" content="Vaid Associates">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://vaidassociates.com/interiors.html">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Interior Design Services - Luxury Residential & Commercial Interiors">
+    <meta property="og:description"
+        content="Discover our premium interior design services from luxury residential spaces to sophisticated commercial environments.">
+    <meta property="og:url" content="https://vaidassociates.com/interiors.html">
+    <meta property="og:site_name" content="Vaid Associates">
+    <meta property="og:image" content="https://vaidassociates.com/images/projects/interiors-showcase.jpg">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Interior Design Services - Vaid Associates">
+    <meta name="twitter:description"
+        content="Transform your spaces with our luxury interior design services across residential and commercial projects.">
+    <meta name="twitter:image" content="https://vaidassociates.com/images/projects/interiors-twitter.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <metatag-component></metatag-component>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1MF53JLN1M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1MF53JLN1M');
+    </script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header-component></header-component>
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="display-4 fw-bold" data-aos="fade-up">Interior Design Projects</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Explore our interior design portfolio</p>
+
+            <p data-aos="fade-up" data-aos-delay="100">
+                At VAID – <b>Vasantha Architecture, Interiors & Landscape Designers,</b> interior design is more than a
+                service—it’s our passion. We create <b>modern, functional, and aesthetically stunning interior spaces
+                </b> that
+                elevate the way you live and work. Our team of highly skilled and experienced <b>interior designers in
+                    Hyderabad </b> specializes in delivering <b>luxury interiors, contemporary home interiors, office
+                    interiors,</b> and
+                customized residential designs tailored to your lifestyle and requirements.
+
+            </p>
+
+            <p data-aos="fade-up" data-aos-delay="100">
+                With a strong focus on innovation, we stay updated with the latest trends in <b>modern interior design,
+                    space planning, materials, and décor solutions </b> to ensure every project reflects timeless
+                elegance
+                and
+                superior functionality. Whether it’s <b>luxury villa interiors, apartment interiors, commercial
+                    interiors,
+                    or turnkey home interior solutions,</b> VAID consistently provides high-quality, trend-setting
+                designs that
+                exceed client expectations.
+
+
+            </p>
+        </div>
+    </header>
+
+    <!-- Interior Projects Section -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Interior Categories Grid (3x3) -->
+            <div id="interiors-container" class="row g-4 architecture-grid">
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer-component></footer-component>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Web Component -->
+    <script src="webcomponent/headerComponents.js"></script>
+    <script src="webcomponent/FooterComponent.js"></script>
+    <script src="webcomponent/metatagComponent.js"></script>
+
+    <script>
+        function openCategory(category) {
+            window.location.href = 'interiors-items.html?filter=' + category;
+        }
+    </script>
+
+    <script>
+        fetch("data/interiorsData.json")
+            .then(response => response.json())
+            .then(data => {
+
+                // Always load architecture category
+                const categories = data.interiors;
+
+                if (!categories) {
+                    console.error("Interiors category not found in JSON");
+                    return;
+                }
+
+                // ✅ Sort by "number" (ascending)
+                categories.sort((a, b) => Number(a.number) - Number(b.number));
+
+                document.getElementById("interiors-container").innerHTML =
+                    categories
+                        .map(item => {
+                            return `
+                        <div class="col-lg-4 col-md-6">
+                            <div class="architecture-category" onclick="window.location.href='${item.link}'">
+                                <div class="category-image-wrapper">
+                                    <img src="${item.img}" class="img-fluid" alt="${item.title}">
+                                    <div class="category-overlay">
+                                        <div class="category-info">
+                                            <h3>${item.title}</h3>
+                                            <span class="category-number">${item.number}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                        })
+                        .join("");
+            })
+            .catch(error => console.error("Error loading project categories:", error));
+    </script>
+</body>
+
+</html>

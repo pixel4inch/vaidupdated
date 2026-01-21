@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Conventions - Interiors | Vaid Associates</title>
+    <meta name="description"
+        content="Convention center and banquet hall interior design projects by Vaid Associates — event spaces and hospitality interiors.">
+    <link rel="canonical" href="https://vaidassociates.com/pages/interirors/conventions.html">
+    <!-- Shared site styles from parent -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/styles.css">
+
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <pageheader-component></pageheader-component>
+
+    <!-- Page header -->
+    <header class="page-header py-5">
+        <div class="container">
+            <h1>Conventions — Interior Projects</h1>
+            <p class="lead">Convention centers and banquet hall interiors including event spaces and hospitality design.
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container py-5">
+            <section class="projects">
+                <div id="project-list" class="row g-4"></div>
+            </section>
+
+            <div class="mt-4">
+                <a href="../../interiors.html" class="btn btn-dark-yellow">
+                    <i class="bi bi-arrow-left"></i> Back to Interiors
+                </a>
+            </div>
+        </div>
+
+        <!-- Project Modal -->
+        <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Project Title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" id="carouselImages">
+                                <!-- Images will be dynamically inserted here -->
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <pagefooter-component></pagefooter-component>
+
+    <!-- Shared site scripts from parent -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../../js/main.js"></script>
+
+    <!-- Web Component -->
+    <script src="/webcomponent/pagesheaderComponents.js"></script>
+    <script src="/webcomponent/pageFooterComponent.js"></script>
+
+
+    <script>
+        const category = "convension"; // apartments | commercial | farm-house
+
+        fetch("../../data/interiorsData.json")
+            .then(response => response.json())
+            .then(data => {
+                const items = data[category];
+
+                document.getElementById("project-list").innerHTML = items
+                    .map(project => {
+                        return `
+                        <div class="col-lg-4 col-md-6">
+                            <div class="project-card"
+                            onclick='openProjectModal(${JSON.stringify(project)})'>
+
+                            <div class="card">
+                                <img src="${project.img}" class="card-img-top" alt="${project.title}">
+                                
+                                <div class="card-body">
+                                <h5 class="card-title">${project.title}</h5>
+                                <p class="card-text d-none ">${project.description}</p>
+                                
+                               
+                                    <div class="d-flex justify-content-start align-items-center">
+                                            <p class="mb-0 mr-1 text-capitalize">location:</p>
+                                            <p class="mb-0 text-capitalize primay-text-color" style="user-select: auto;margin-left:5px !important;">${project.location}</p>
+                                    </div>
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <p class="mb-0 mr-1 text-capitalize">Total Site Area:</p>
+                                            <p class="mb-0 text-capitalize primay-text-color" style="user-select: auto;margin-left:5px !important;">${project.siteArea}</p>
+                                    </div>
+
+                                     <div class="d-flex justify-content-start align-items-center">
+                                            <p class="mb-0 mr-1 text-capitalize">Type:</p>
+                                            <p class="mb-0 text-capitalize primay-text-color" style="user-select: auto;margin-left:5px !important;">${project.Type}</p>
+                                    </div>
+                                       
+                                        
+                             
+
+
+                                  
+                            </div>
+                                
+                                
+                                </div>
+                              
+
+                            </div>
+                        </div>
+        `;
+                    })
+                    .join("");
+            })
+            .catch(error => console.error("Error loading project list:", error));
+    </script>
+
+
+    <script>if (window.AOS) { AOS.init(); }</script>
+
+    <script></script>
+</body>
+
+</html>

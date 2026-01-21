@@ -1,0 +1,50 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://vaidassociates.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Allow all CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Block access to sensitive files
+Disallow: /send_email.php
+Disallow: /*.php$
+
+# Allow specific important pages
+Allow: /index.html
+Allow: /about.html
+Allow: /architecture.html
+Allow: /architecture-items.html
+Allow: /interiors.html
+Allow: /interiors-items.html
+Allow: /landscape.html
+Allow: /contact.html
+Allow: /media.html
+
+# Cache directives for search engines
+# Allow caching of static resources
+User-agent: Googlebot
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Specific rules for Bing
+User-agent: bingbot
+Crawl-delay: 2
+
+# Block access to development files
+Disallow: /README.md
+Disallow: /.git/
+Disallow: /*.txt$
+Disallow: /temp/
+Disallow: /backup/
+
+# Allow important structured data
+Allow: /sitemap.xml
+Allow: /robots.txt

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <title>Architecture Services - Residential & Commercial Design | Vaid Associates</title>
+    <meta name="description"
+        content="Explore Vaid Associates' architectural services including residential villas, commercial buildings, apartments, hospitals, and industrial projects. Award-winning designs across Hyderabad, Dubai, and New York.">
+    <meta name="keywords"
+        content="architecture services, residential architecture, commercial building design, villa design, apartment design, hospital architecture, industrial buildings, Hyderabad architects">
+    <meta name="author" content="Vaid Associates">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://vaidassociates.com/architecture.html">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Architecture Services - Residential & Commercial Design | Vaid Associates">
+    <meta property="og:description"
+        content="Discover our comprehensive architecture services from luxury villas to commercial complexes. Award-winning designs that blend innovation with functionality.">
+    <meta property="og:url" content="https://vaidassociates.com/architecture.html">
+    <meta property="og:site_name" content="Vaid Associates">
+    <meta property="og:image" content="https://vaidassociates.com/images/projects/architecture-showcase.jpg">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Architecture Services - Vaid Associates">
+    <meta name="twitter:description"
+        content="From residential villas to commercial complexes - explore our comprehensive architectural design services.">
+    <meta name="twitter:image" content="https://vaidassociates.com/images/projects/architecture-twitter.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+<metatag-component></metatag-component>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1MF53JLN1M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1MF53JLN1M');
+    </script>
+
+
+
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header-component></header-component>
+
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="display-4 fw-bold title" data-aos="fade-up">Architecture Projects</h1>
+            <p class="lead Tagline" data-aos="fade-up" data-aos-delay="100">Explore our architectural design portfolio</p>
+
+            <div class="Description">
+            <p data-aos="fade-up" data-aos-delay="100" class="line">
+                At VAID – <b>Vasantha Architecture, Interiors & Landscape Designers,</b> we believe architecture is the
+                perfect
+                blend of creativity, functionality, and innovation. As one of the leading <b> architecture firms in
+                    Hyderabad,</b> we deliver thoughtful, modern, and Vastu-aligned designs that enhance the quality of
+                space
+                and transform everyday living.
+            </p>
+
+            <p data-aos="fade-up" data-aos-delay="100" class="line">
+                Our experienced team of <b>architects, planners, and design consultants</b> specializes in
+                <b>residential
+                    architecture, luxury villa design, commercial buildings, institutional projects, and sustainable
+                    architecture solutions.</b> With a strong command over design principles, detailing, and project
+                execution, VAID is widely recognized for offering <b>top-class architectural services</b> tailored to
+                diverse
+                client needs.
+            </p>
+
+            <p data-aos="fade-up" data-aos-delay="100" class="line">
+                We work across various sectors, providing <b>custom home architecture, modern house plans, green
+                    building
+                    design, façade design, space planning, and end-to-end architectural consultancy.</b> Every project
+                is
+                approached with precision and creativity, ensuring functional layouts, timeless aesthetics, and
+                long-lasting value for our clients.
+
+            </p>
+             </div>
+
+        </div>
+    </header>
+
+    <!-- Architecture Projects Section -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Architecture Categories Grid (3x3) -->
+            <div id="architecture-container" class="row g-4 architecture-grid">
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer-component></footer-component>
+
+    <!-- Project Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content project-modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModalLabel">Project Title</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <img src="" alt="Project Image" class="img-fluid rounded project-modal-image"
+                                id="modalProjectImage">
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-details">
+                                <h6 class="text-gold mb-3">Project Details</h6>
+                                <div class="project-info" id="modalProjectInfo">
+                                    <p><strong>Category:</strong> <span id="modalCategory"></span></p>
+                                    <p><strong>Location:</strong> <span id="modalLocation">Hyderabad, India</span></p>
+                                    <p><strong>Year:</strong> <span id="modalYear">2023</span></p>
+                                    <p><strong>Area:</strong> <span id="modalArea">5000 sq ft</span></p>
+                                </div>
+                                <div class="project-description" id="modalDescription">
+                                    <!-- Description will be populated by JavaScript -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- Web Component -->
+    <script src="webcomponent/headerComponents.js"></script>
+    <script src="webcomponent/FooterComponent.js"></script>
+    <script src="webcomponent/metatagComponent.js"></script>
+
+    <script>
+        fetch("data/architectureData.json")
+            .then(response => response.json())
+            .then(data => {
+
+                // Always load architecture category
+                const categories = data.architecture;
+
+                if (!categories) {
+                    console.error("Architecture category not found in JSON");
+                    return;
+                }
+
+                // ✅ Sort by "number" (ascending)
+                categories.sort((a, b) => Number(a.number) - Number(b.number));
+
+                document.getElementById("architecture-container").innerHTML =
+                    categories
+                        .map(item => {
+                            return `
+                        <div class="col-lg-4 col-md-6">
+                            <div class="architecture-category" onclick="window.location.href='${item.link}'">
+                                <div class="category-image-wrapper">
+                                    <img src="${item.img}" class="img-fluid" alt="${item.title}">
+                                    <div class="category-overlay">
+                                        <div class="category-info">
+                                            <h3>${item.title}</h3>
+                                            <span class="category-number">${item.number}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                        })
+                        .join("");
+            })
+            .catch(error => console.error("Error loading project categories:", error));
+    </script>
+
+
+
+
+
+    <!-- JavaScript for category navigation is now inline in onclick handlers -->
+</body>
+
+</html>

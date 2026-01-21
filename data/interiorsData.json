@@ -1,0 +1,497 @@
+{
+    "interiors": [
+        {
+            "title": "APARTMENTS",
+            "number": "01",
+            "img": "images/projects/interirors/apartments/AparnaOne/1.jpg",
+            "link": "pages/interirors/apartments.html"
+        },
+        {
+            "title": "COMMERCIAL",
+            "number": "02",
+            "img": "images/projects/interirors/commercial/Pasura/1.jpeg",
+            "link": "pages/interirors/commercial.html"
+        },
+        {
+            "title": "RESTURANT",
+            "number": "07",
+            "img": "images/projects/interirors/restaurant/Runway9/AI/1.jpg",
+            "link": "pages/interirors/restaurant.html"
+        },
+        {
+            "title": "FARM HOUSE",
+            "number": "03",
+            "img": "images/projects/interirors/farmhouse/Contemporaryfarmhouse/1.jpeg",
+            "link": "pages/interirors/farm-house.html"
+        },
+        {
+            "title": "HOSPITAL",
+            "number": "04",
+            "img": "images/projects/interirors/hospital/ELEDENT/1.jpg",
+            "link": "pages/interirors/hospital.html"
+        },
+        {
+            "title": "INDUSTRIAL",
+            "number": "05",
+            "img": "images/projects/interirors/industrial/ICHOR/1.jpg",
+            "link": "pages/interirors/industrial.html"
+        },
+        {
+            "title": "INSTITUTION",
+            "number": "06",
+            "img": "images/projects/interirors/institutions/Ayra/01.jpg",
+            "link": "pages/interirors/institution.html"
+        },
+        {
+            "title": "SPORTS",
+            "number": "08",
+            "img": "images/projects/interirors/sports/Ayra/1.jpg",
+            "link": "pages/interirors/sports.html"
+        },
+        {
+            "title": "VILLA",
+            "number": "09",
+            "img": "images/projects/interirors/villa/Ahkil/1.jpg",
+            "link": "pages/interirors/villa.html"
+        }
+    ],
+    "apartments": [
+        {
+            "id": "Auro",
+            "title": "Auro",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/apartments/Auro/1.JPG",
+            "description": "Contemporary multi-residential design with modern amenities.",
+            "gallery": [
+                "../../images/projects/interirors/apartments/Auro/1.JPG",
+                "../../images/projects/interirors/apartments/Auro/2.JPG",
+                "../../images/projects/interirors/apartments/Auro/3.JPG",
+                "../../images/projects/interirors/apartments/Auro/4.JPG",
+                "../../images/projects/interirors/apartments/Auro/5.JPG",
+                "../../images/projects/interirors/apartments/Auro/6.JPG",
+                "../../images/projects/interirors/apartments/Auro/7.JPG"
+            ]
+        },
+        {
+            "id": "Aparna One",
+            "title": "Aparna One",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/apartments/AparnaOne/1.jpg",
+            "description": "Modern apartment complex with optimized layouts.",
+            "gallery": [
+                "../../images/projects/interirors/apartments/AparnaOne/1.jpg",
+                "../../images/projects/interirors/apartments/AparnaOne/2.jpg",
+                "../../images/projects/interirors/apartments/AparnaOne/3.jpg",
+                "../../images/projects/interirors/apartments/AparnaOne/4.jpg",
+                "../../images/projects/interirors/apartments/AparnaOne/5.jpg",
+                "../../images/projects/interirors/apartments/AparnaOne/6.jpg",
+                "../../images/projects/interirors/apartments/AparnaOne/7.jpg"
+            ]
+        },
+        {
+            "id": "My homeBhooja1",
+            "title": "My home Bhooja ",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/apartments/MyhomeBhooja1/1.JPG",
+            "description": "Modern apartment complex with optimized layouts.",
+            "gallery": [
+                "../../images/projects/interirors/apartments/MyhomeBhooja1/1.JPG",
+                "../../images/projects/interirors/apartments/MyhomeBhooja1/2.JPG",
+                "../../images/projects/interirors/apartments/MyhomeBhooja1/3.JPG",
+                "../../images/projects/interirors/apartments/MyhomeBhooja1/4.JPG",
+                "../../images/projects/interirors/apartments/MyhomeBhooja1/5.JPG",
+                "../../images/projects/interirors/apartments/MyhomeBhooja1/6.JPG"
+            ]
+        },
+        {
+            "id": "My homeBhooja2",
+            "title": "My home Bhooja ",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/APARTMENTS/MyHomeBhooja2/1.JPG",
+            "description": "Modern apartment complex with optimized layouts.",
+            "gallery": [
+                "../../images/projects/interirors/APARTMENTS/MyHomeBhooja2/1.JPG",
+                "../../images/projects/interirors/APARTMENTS/MyHomeBhooja2/2.JPG",
+                "../../images/projects/interirors/APARTMENTS/MyHomeBhooja2/3.JPG",
+                "../../images/projects/interirors/APARTMENTS/MyHomeBhooja2/4.JPG",
+                "../../images/projects/interirors/APARTMENTS/MyHomeBhooja2/5.JPG",
+                "../../images/projects/interirors/APARTMENTS/MyHomeBhooja2/6.JPG"
+            ]
+        }
+    ],
+    "commercial": [
+        {
+            "id": "Pasura",
+            "title": "Pasura",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/commercial/Pasura/1.jpeg",
+            "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/commercial/Pasura/1.jpeg",
+                "../../images/projects/interirors/commercial/Pasura/2a.jpg",
+                "../../images/projects/interirors/commercial/Pasura/2.jpg",
+                "../../images/projects/interirors/commercial/Pasura/4.jpeg",
+                "../../images/projects/interirors/commercial/Pasura/5.jpeg",
+                "../../images/projects/interirors/commercial/Pasura/6.jpeg",
+                "../../images/projects/interirors/commercial/Pasura/7.jpeg",
+                "../../images/projects/interirors/commercial/Pasura/8.jpeg",
+                "../../images/projects/interirors/commercial/Pasura/9.jpeg"
+            ]
+        },
+        {
+            "id": "SrinivasOffice",
+            "title": "Srinivas Office",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/commercial/SrinivasOffice/01.jpg",
+            "description": "Multi-use commercial  complex with retail and office spaces designed for optimal functionality.",
+            "gallery": [
+                "../../images/projects/interirors/commercial/SrinivasOffice/01.jpg",
+                "../../images/projects/interirors/commercial/SrinivasOffice/02.jpg",
+                "../../images/projects/interirors/commercial/SrinivasOffice/03.jpg",
+                "../../images/projects/interirors/commercial/SrinivasOffice/04.jpg",
+                "../../images/projects/interirors/commercial/SrinivasOffice/05.jpg",
+                "../../images/projects/interirors/commercial/SrinivasOffice/06.jpg",
+                "../../images/projects/interirors/commercial/SrinivasOffice/07.jpg",
+                "../../images/projects/interirors/commercial/SrinivasOffice/08.jpg",
+                "../../images/projects/interirors/commercial/SrinivasOffice/09.jpg"
+            ]
+        }
+    ],
+    "farm-house": [
+        {
+            "id": "Contemporaryfarmhouse",
+            "title": "Contemporary farmhouse",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/1.jpeg",
+            "description": "Rural residential architecture blending with natural landscape featuring sustainable design elements.",
+            "gallery": [
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/1.jpeg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/2.jpeg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/3.jpeg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/4.jpeg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/5.jpeg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/6.jpeg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/7.jpeg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/8.jpeg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/9.jpg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/10.jpg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/11.jpg",
+                "../../images/projects/interirors/farmhouse/Contemporaryfarmhouse/12.jpg"
+            ]
+        },
+        {
+            "id": "manduva-farmhouse",
+            "title": "Manduva Farm House",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/1.jpg",
+            "description": "Contemporary farm house design integrating modern amenities with traditional rural aesthetics.",
+            "gallery": [
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/1.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/2.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/3.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/4.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/5.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/6.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/7.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/8.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/9.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/10.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/11.jpg",
+                "../../images/projects/interirors/farmhouse/ManduvaFarmhouse/12.jpg"
+            ]
+        }
+    ],
+    "Restaurant": [
+        {
+            "id": "Runway9",
+            "title": "Runway 9",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/restaurant/Runway9/AI/1.jpg",
+            "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/restaurant/Runway9/AI/1.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/AI/2.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/AI/3.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/AI/4.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/AI/5.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/AI/6.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/AI/7.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/1.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/2.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/3.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/4.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/5.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/6.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/7.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/8.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/9.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/10.jpg",
+                "../../images/projects/interirors/restaurant/Runway9/WM/11.jpg"
+            ]
+        }
+    ],
+    "hospitals": [
+        {
+            "id": "ELEDENT",
+            "title": "ELEDENT",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/hospital/ELEDENT/1.jpg",
+            "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/hospital/ELEDENT/1.jpg",
+                "../../images/projects/interirors/hospital/ELEDENT/2.jpg",
+                "../../images/projects/interirors/hospital/ELEDENT/3.jpg",
+                "../../images/projects/interirors/hospital/ELEDENT/4.jpg"
+            ]
+        },
+        {
+            "id": "ELEDENT",
+            "title": "ELEDENT",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/hospital/ELEDENT/1.jpg",
+            "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/hospital/ELEDENT/1.jpg",
+                "../../images/projects/interirors/hospital/ELEDENT/2.jpg",
+                "../../images/projects/interirors/hospital/ELEDENT/3.jpg",
+                "../../images/projects/interirors/hospital/ELEDENT/4.jpg"
+            ]
+        },
+        {
+            "id": "ELEDENT",
+            "title": "ELEDENT",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/hospital/ELEDENT/1.jpg",
+            "description": "Commercial building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/hospital/ELEDENT/1.jpg",
+                "../../images/projects/interirors/hospital/ELEDENT/2.jpg",
+                "../../images/projects/interirors/hospital/ELEDENT/3.jpg",
+                "../../images/projects/interirors/hospital/ELEDENT/4.jpg"
+            ]
+        }
+    ],
+    "Industrial": [
+        {
+            "id": "ICHOR",
+            "title": "ICHOR",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/industrial/ICHOR/1.jpg",
+            "description": "industrial building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/industrial/ICHOR/1.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/2.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/3.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/4.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/5.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/6.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/7.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/8.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/9.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/10.jpg",
+                "../../images/projects/interirors/industrial/ICHOR/11.jpg"
+            ]
+        }
+    ],
+    "institution": [
+        {
+            "id": "Ayra",
+            "title": "Ayra",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/institutions/Ayra/01.jpg",
+            "description": "institutions building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/institutions/Ayra/01.jpg",
+                "../../images/projects/interirors/institutions/Ayra/02.jpg",
+                "../../images/projects/interirors/institutions/Ayra/03.jpg",
+                "../../images/projects/interirors/institutions/Ayra/04.jpg",
+                "../../images/projects/interirors/institutions/Ayra/05.png",
+                "../../images/projects/interirors/institutions/Ayra/07.jpg",
+                "../../images/projects/interirors/institutions/Ayra/08.png",
+                "../../images/projects/interirors/institutions/Ayra/09.jpg",
+                "../../images/projects/interirors/institutions/Ayra/10.jpg",
+                "../../images/projects/interirors/institutions/Ayra/14.jpg",
+                "../../images/projects/interirors/institutions/Ayra/15.jpg",
+                "../../images/projects/interirors/institutions/Ayra/16.jpg",
+                "../../images/projects/interirors/institutions/Ayra/17.jpg",
+                "../../images/projects/interirors/institutions/Ayra/18.jpg",
+                "../../images/projects/interirors/institutions/Ayra/19.jpg",
+                "../../images/projects/interirors/institutions/Ayra/20.jpg"
+            ]
+        },
+        {
+            "id": "Ayra",
+            "title": "Ayra",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/institutions/Ayra/01.jpg",
+            "description": "institutions building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/institutions/Ayra/01.jpg",
+                "../../images/projects/interirors/institutions/Ayra/02.jpg",
+                "../../images/projects/interirors/institutions/Ayra/03.jpg",
+                "../../images/projects/interirors/institutions/Ayra/04.jpg",
+                "../../images/projects/interirors/institutions/Ayra/05.png",
+                "../../images/projects/interirors/institutions/Ayra/07.jpg",
+                "../../images/projects/interirors/institutions/Ayra/08.png",
+                "../../images/projects/interirors/institutions/Ayra/09.jpg",
+                "../../images/projects/interirors/institutions/Ayra/10.jpg",
+                "../../images/projects/interirors/institutions/Ayra/14.jpg",
+                "../../images/projects/interirors/institutions/Ayra/15.jpg",
+                "../../images/projects/interirors/institutions/Ayra/16.jpg",
+                "../../images/projects/interirors/institutions/Ayra/17.jpg",
+                "../../images/projects/interirors/institutions/Ayra/18.jpg",
+                "../../images/projects/interirors/institutions/Ayra/19.jpg",
+                "../../images/projects/interirors/institutions/Ayra/20.jpg"
+            ]
+        },
+        {
+            "id": "Ayra",
+            "title": "Ayra",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/institutions/Ayra/01.jpg",
+            "description": "institutions building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/institutions/Ayra/01.jpg",
+                "../../images/projects/interirors/institutions/Ayra/02.jpg",
+                "../../images/projects/interirors/institutions/Ayra/03.jpg",
+                "../../images/projects/interirors/institutions/Ayra/04.jpg",
+                "../../images/projects/interirors/institutions/Ayra/05.png",
+                "../../images/projects/interirors/institutions/Ayra/07.jpg",
+                "../../images/projects/interirors/institutions/Ayra/08.png",
+                "../../images/projects/interirors/institutions/Ayra/09.jpg",
+                "../../images/projects/interirors/institutions/Ayra/10.jpg",
+                "../../images/projects/interirors/institutions/Ayra/14.jpg",
+                "../../images/projects/interirors/institutions/Ayra/15.jpg",
+                "../../images/projects/interirors/institutions/Ayra/16.jpg",
+                "../../images/projects/interirors/institutions/Ayra/17.jpg",
+                "../../images/projects/interirors/institutions/Ayra/18.jpg",
+                "../../images/projects/interirors/institutions/Ayra/19.jpg",
+                "../../images/projects/interirors/institutions/Ayra/20.jpg"
+            ]
+        }
+    ],
+    "sports": [
+        {
+            "id": "Ayra",
+            "title": "Ayra",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/sports/Ayra/1.jpg",
+            "description": "sports building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/sports/Ayra/1.jpg",
+                "../../images/projects/interirors/sports/Ayra/2.jpg",
+                "../../images/projects/interirors/sports/Ayra/3.jpg",
+                "../../images/projects/interirors/sports/Ayra/4.jpg"
+            ]
+        },
+        {
+            "id": "Bluebay",
+            "title": "Blue bay",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/sports/Bluebay/1.png",
+            "description": "sports building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/sports/Bluebay/1.png",
+                "../../images/projects/interirors/sports/Bluebay/2.png",
+                "../../images/projects/interirors/sports/Bluebay/3.png",
+                "../../images/projects/interirors/sports/Bluebay/4.png"
+            ]
+        }
+    ],
+    "villa": [
+        {
+            "id": "Ahkil",
+            "title": "Ahkil",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/villa/Ahkil/1.jpg",
+            "description": "villa building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/villa/Ahkil/1.jpg",
+                "../../images/projects/interirors/villa/Ahkil/2.jpg",
+                "../../images/projects/interirors/villa/Ahkil/3.jpg",
+                "../../images/projects/interirors/villa/Ahkil/4.jpg",
+                "../../images/projects/interirors/villa/Ahkil/5.jpg",
+                "../../images/projects/interirors/villa/Ahkil/6.jpg",
+                "../../images/projects/interirors/villa/Ahkil/7.jpg"
+            ]
+        },
+        {
+            "id": "Bikki",
+            "title": "Bikki",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/villa/Bikki/1.jpg",
+            "description": "villa building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/villa/Bikki/1.jpg",
+                "../../images/projects/interirors/villa/Bikki/2.jpg",
+                "../../images/projects/interirors/villa/Bikki/3.jpg",
+                "../../images/projects/interirors/villa/Bikki/4.jpg",
+                "../../images/projects/interirors/villa/Bikki/5.jpg",
+                "../../images/projects/interirors/villa/Bikki/6.jpg",
+                "../../images/projects/interirors/villa/Bikki/7.jpg",
+                "../../images/projects/interirors/villa/Bikki/8.jpg",
+                "../../images/projects/interirors/villa/Bikki/9.jpg",
+                "../../images/projects/interirors/villa/Bikki/10.jpg"
+            ]
+        },
+        {
+            "id": "Teju",
+            "title": "Teju",
+            "location": "",
+            "siteArea": "",
+            "Type": "",
+            "img": "../../images/projects/interirors/villa/Teju/1.jpg",
+            "description": "villa building design with functional workspace solutions and modern architectural elements.",
+            "gallery": [
+                "../../images/projects/interirors/villa/Teju/1.jpg",
+                "../../images/projects/interirors/villa/Teju/2.jpg",
+                "../../images/projects/interirors/villa/Teju/3.jpg",
+                "../../images/projects/interirors/villa/Teju/4.jpg",
+                "../../images/projects/interirors/villa/Teju/5.jpg",
+                "../../images/projects/interirors/villa/Teju/6.jpg",
+                "../../images/projects/interirors/villa/Teju/7.jpg",
+                "../../images/projects/interirors/villa/Teju/8.jpg"
+            ]
+        }
+    ]
+}
