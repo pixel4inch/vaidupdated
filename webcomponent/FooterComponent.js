@@ -60,7 +60,7 @@ class FooterComponent extends HTMLElement {
             <hr class="my-4 footer-divider">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="mb-md-0">© 2025 VAID Architects. All Rights Reserved.</p>
+                    <p class="mb-md-0">© 2026 VAID Architects. All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="mb-0">Designed with <i class="fas fa-heart text-gold"></i> by VAID</p>

@@ -159,9 +159,9 @@
     {
       "id": "coco-farmhouse",
       "title": "COCO FARM HOUSE ",
-      "location": "",
-      "siteArea": "",
-      "Type": "",
+      "location": "Tamil Nadu",
+      "siteArea": "20 Acres",
+      "Type": "Contemporary Farm House",
       "img": "../../images/projects/archtechure/farm-house/COCO-FARM-HOUSE/001.jpg",
       "description": "Rural residential architecture blending with natural landscape featuring sustainable design elements.",
       "gallery": [
@@ -200,9 +200,9 @@
     {
       "id": "nandakishore-farmhouse",
       "title": "Nandakishore FARM HOUSE ",
-      "location": "",
-      "siteArea": "",
-      "Type": "",
+      "location": "Maheshwaram",
+      "siteArea": "7 Acres",
+      "Type": "Contemporary",
       "img": "../../images/projects/archtechure/farm-house/Nandakishore/001.jpg",
       "description": "",
       "gallery": [
@@ -218,9 +218,9 @@
     {
       "id": "thatamanavadu-farmhouse",
       "title": "THATA MANAVADU FARM HOUSE ",
-      "location": "",
-      "siteArea": "",
-      "Type": "",
+      "location": "Maharashtra",
+      "siteArea": "2 Acres",
+      "Type": "Traditional",
       "img": "../../images/projects/archtechure/farm-house/thatamanavadu/001.jpg",
       "description": "",
       "gallery": [
@@ -237,9 +237,9 @@
     {
       "id": "usa_nc",
       "title": "USA NC FARM HOUSE ",
-      "location": "",
-      "siteArea": "",
-      "Type": "",
+      "location": "North California",
+      "siteArea": "53 Acres",
+      "Type": "Traditional, ",
       "img": "../../images/projects/archtechure/farm-house/usa_nc/01.jpg",
       "description": "",
       "gallery": [
